@@ -1,5 +1,6 @@
 ## NAME
 
+|----------|----------|----------|
 | ![Exemplo de imagem 1](./public/assets/images/screenshot-1.png) | ![Exemplo de imagem 2](./public/assets/images/screenshot-2.png) | ![Exemplo de imagem 3](./public/assets/images/screenshot-3.png) |
 
 DESCRIPTION
