@@ -1,0 +1,10 @@
+@import "../../../styles/theme.scss";
+
+.List {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-lg;
+    align-items: center;
+}

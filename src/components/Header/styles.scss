@@ -1,0 +1,16 @@
+@import "../../styles/theme.scss";
+
+.Header {
+    width: 100%;
+    height: min-content;
+    display: grid;
+    grid-template: repeat(2, min-content) / 100%;
+    row-gap: $spacing-md;
+    justify-items: center;
+
+    .Header__title {
+        font: $typography-xl;
+        color: $brand-color;
+        text-align: center;
+    }
+}

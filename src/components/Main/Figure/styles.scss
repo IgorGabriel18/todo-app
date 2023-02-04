@@ -1,0 +1,21 @@
+@import "../../../styles/theme.scss";
+
+.Figure {
+    width: 100%;
+    height: min-content;
+    display: grid;
+    grid-template: repeat(2, min-content) / 100%;
+    row-gap: $spacing-xm;
+    justify-items: center;
+
+    .Figure__image {
+        width: min(100%, 14rem);
+        height: min-content;
+    }
+
+    .Figure__title {
+        font: $typography-lg;
+        color: $brand-color;
+        text-align: center;
+    }
+}

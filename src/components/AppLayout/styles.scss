@@ -1,0 +1,12 @@
+@import "../../styles/theme.scss";
+
+.AppLayout {
+    width: 100%;
+    height: min-content;
+    min-height: 100vh;
+    padding: $spacing-xxl $spacing-md;
+    display: grid;
+    grid-template: repeat(2, min-content) / 100%;
+    row-gap: $spacing-xl;
+    background-color: $main-color;
+}

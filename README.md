@@ -1,34 +1,27 @@
-## NAME
+## Todo App
 
-|----------|----------|----------|
-| ![Exemplo de imagem 1](./public/assets/images/screenshot-1.png) | ![Exemplo de imagem 2](./public/assets/images/screenshot-2.png) | ![Exemplo de imagem 3](./public/assets/images/screenshot-3.png) |
-
-DESCRIPTION
+Task management website with features to create, edit, and delete tasks.
 
 ## OBJECTIVE
 
-```
-- ITEM
-```
+-   Configure and start a project with Vite.js.
+-   Creation and use of styling variables with SASS.
+-   Configuration and use of Redux for global state management.
+-   Start using a CSS architecture (BEM Architecture).
+-   Configuration of ESLint and Prettier.
 
 ## FEATURES
 
-```
-- ITEM
-```
+-   System for creating, deleting, and editing tasks.
 
 ## TECHNOLOGIES
 
-```
-- React.js
-- TypeScript
-- SASS
-- Redux
-```
+-   React.js
+-   TypeScript
+-   SASS
+-   Redux
 
 ## Usage
 
-```
-- Installation: within the project root, type "yarn" in the terminal
-- Initialization: within the project root, type "yarn dev" in the terminal
-```
+-   Installation: within the project root, type `yarn` in the terminal
+-   Initialization: within the project root, type `yarn dev` in the terminal

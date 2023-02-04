@@ -1,0 +1,37 @@
+@import "../../../styles/theme.scss";
+
+.Form {
+    width: min(100%, 38rem);
+    height: min-content;
+    display: grid;
+    grid-template: min-content / 1fr max-content;
+    column-gap: $spacing-lg;
+    align-items: center;
+
+    .Form__input {
+        width: 100%;
+        height: min-content;
+        padding: $spacing-md $spacing-lg;
+        background-color: $primary-color;
+        border: none;
+        border-radius: $border-radius;
+        outline: none;
+        font: $typography-md;
+        color: $secondary-color;
+    }
+
+    .Form__button {
+        width: max-content;
+        height: min-content;
+        padding: $spacing-xm $spacing-md;
+        background-color: $brand-color;
+        border: none;
+        border-radius: $border-radius;
+        cursor: pointer;
+    }
+
+    .Form__icon {
+        font-size: $icon-primary;
+        color: $secondary-color;
+    }
+}

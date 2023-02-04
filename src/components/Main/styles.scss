@@ -1,0 +1,22 @@
+@import "../../styles/theme.scss";
+
+.Main {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: $spacing-lg;
+    align-items: center;
+
+    .Main__button {
+        width: max-content;
+        height: min-content;
+        padding: $spacing-sm $spacing-xl;
+        background-color: $brand-color;
+        border: none;
+        border-radius: $border-radius;
+        cursor: pointer;
+        font: $typography-md;
+        color: $secondary-color;
+    }
+}
