@@ -3,6 +3,7 @@
 ```
 DESCRIPTION
 
+![Exemplo de imagem 1](./public/assets/images/screenshot-1.png)
 <div align="center">
     <img src="./public/assets/images/screenshot-1.png" />
 </div>
