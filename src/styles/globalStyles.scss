@@ -1,0 +1,38 @@
+@use "./theme.scss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    #root {
+        width: 100%;
+        height: min-content;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        row-gap: theme.$spacing-mega;
+        align-items: center;
+        background-color: theme.$color-main;
+
+        a {
+            text-decoration: none;
+        }
+
+        ul {
+            list-style: none;
+        }
+    }
+
+    &::-webkit-scrollbar {
+        width: theme.$border-size-secondary;
+        background-color: theme.$color-main;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: theme.$border-radius;
+        background-color: theme.$color-brand;
+    }
+}

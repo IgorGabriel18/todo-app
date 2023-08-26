@@ -1,0 +1,52 @@
+@use "~styles/theme.scss";
+
+.content {
+    width: min(100%, 65rem);
+    height: min-content;
+    padding-inline: theme.$spacing-md;
+    display: grid;
+    grid: 1fr min-content / 100%;
+    row-gap: theme.$spacing-mega;
+    justify-items: center;
+
+    .content__figure {
+        width: 100%;
+        height: min-content;
+        display: grid;
+        grid-template: repeat(2, min-content) / 100%;
+        row-gap: theme.$spacing-xs;
+        justify-items: center;
+    }
+
+    .content__image {
+        width: min(100%, 14rem);
+        height: min-content;
+    }
+
+    .content__title {
+        font: theme.$typography-lg;
+        color: theme.$color-brand;
+        text-align: center;
+    }
+
+    .content__list {
+        width: 100%;
+        height: min-content;
+        display: flex;
+        flex-direction: column;
+        row-gap: theme.$spacing-lg;
+        align-items: center;
+    }
+
+    .content__button {
+        width: max-content;
+        height: min-content;
+        padding: theme.$spacing-sm theme.$spacing-xl;
+        background-color: theme.$color-brand;
+        border: none;
+        border-radius: theme.$border-radius;
+        cursor: pointer;
+        font: theme.$typography-md;
+        color: theme.$color-secondary;
+    }
+}

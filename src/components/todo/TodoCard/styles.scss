@@ -1,0 +1,90 @@
+@use "~styles/theme.scss";
+
+.todo-card {
+    width: 100%;
+    height: min-content;
+    padding: theme.$spacing-md;
+    display: grid;
+    grid: repeat(2, min-content) / 100%;
+    row-gap: theme.$spacing-xl;
+    border: theme.$border-size-primary solid theme.$color-brand;
+    border-radius: theme.$border-radius;
+
+    .todo-card__header {
+        width: 100%;
+        height: min-content;
+        display: grid;
+        grid: min-content / max-content 1fr;
+        column-gap: theme.$spacing-lg;
+    }
+
+    .todo-card__date {
+        color: theme.$color-brand;
+        font: theme.$typography-sm;
+    }
+
+    .todo-card__id {
+        color: theme.$color-brand;
+        font: theme.$typography-sm;
+        text-align: right;
+    }
+
+    .todo-card__main {
+        width: 100%;
+        height: min-content;
+        display: flex;
+        flex-wrap: wrap;
+        gap: theme.$spacing-md theme.$spacing-mega;
+        justify-content: end;
+    }
+
+    .todo-card__input {
+        width: theme.$icon-secondary;
+        height: theme.$icon-secondary;
+
+        &:checked {
+            accent-color: theme.$color-brand;
+        }
+    }
+
+    .todo-card__description {
+        width: 100%;
+        height: min-content;
+        color: theme.$color-secondary;
+        font: theme.$typography-sm;
+        text-align: justify;
+        word-break: break-all;
+    }
+
+    .todo-card__button {
+        all: unset;
+        width: max-content;
+        height: min-content;
+        display: grid;
+        grid: min-content / max-content;
+        place-content: center;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+    }
+
+    .todo-card__icon {
+        color: theme.$color-brand;
+        font-size: theme.$icon-secondary;
+    }
+
+    @media screen and (min-width: theme.$breakpoint-sm) {
+        .todo-card__main {
+            flex-wrap: nowrap;
+            column-gap: theme.$spacing-lg;
+        }
+    }
+}
+
+.todo-card--variant {
+    opacity: 0.15;
+
+    .todo-card__description {
+        text-decoration: line-through;
+    }
+}

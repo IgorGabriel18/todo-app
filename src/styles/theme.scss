@@ -1,0 +1,53 @@
+$color-brand: #4338ca;
+$color-main: #18181b;
+$color-primary: #27272a;
+$color-secondary: #eef2ff;
+$color-tertiary: #be2727;
+$color-quaternary: rgba(0, 0, 0, 0.712);
+
+$max_width: 90rem;
+$breakpoint-tny: 20rem;
+$breakpoint-xs: 30rem;
+$breakpoint-sm: 36rem;
+$breakpoint-md: 48rem;
+$breakpoint-lg: 62rem;
+$breakpoint-xl: 75rem;
+$breakpoint-xxl: 90rem;
+$breakpoint-mega: 120rem;
+
+$spacing-xs: 0.25rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 1rem;
+$spacing-lg: 1.5rem;
+$spacing-xl: 2rem;
+$spacing-xxl: 3rem;
+$spacing-mega: 4rem;
+$spacing-super: 6rem;
+$spacing-ultra: 8rem;
+
+$typography-sm:
+    normal 500 0.875rem / normal "Montserrat",
+    "sans-serif";
+$typography-md:
+    normal 400 1rem / normal "Montserrat",
+    "sans-serif";
+$typography-lg:
+    normal 500 1.25rem / normal "Montserrat",
+    "sans-serif";
+$typography-xl:
+    normal 500 1.5rem / normal "Montserrat",
+    "sans-serif";
+$typography-xxl:
+    normal 700 1.875rem / normal "Montserrat",
+    "sans-serif";
+$typography-mega:
+    normal 700 2.25rem / normal "Montserrat",
+    "sans-serif";
+
+$border-size-primary: 0.125rem;
+$border-size-secondary: 0.5rem;
+
+$border-radius: 1rem;
+
+$icon-primary: 1.75rem;
+$icon-secondary: 1.25rem;

@@ -1,0 +1,13 @@
+@use "~styles/theme.scss";
+
+.header {
+    width: min(100%, 30rem);
+    height: min-content;
+    padding: theme.$spacing-mega theme.$spacing-md 0;
+
+    .header__title {
+        color: theme.$color-brand;
+        font: theme.$typography-mega;
+        text-align: center;
+    }
+}
